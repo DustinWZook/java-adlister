@@ -6,6 +6,7 @@
     <title>Title</title>
 </head>
 <body>
+    <jsp:include page="partials/navbar.jsp"/>
 
 <h1>profile page</h1>
 

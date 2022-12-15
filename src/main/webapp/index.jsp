@@ -5,6 +5,7 @@
     <title><%= "some title" %></title>
 </head>
 <body>
+    <jsp:include page="partials/navbar.jsp"/>
     <c:if test="true">
         <h1><a href="login.jsp">login page</a></h1>
         <h1><a href="profile.jsp">profile page</a></h1>

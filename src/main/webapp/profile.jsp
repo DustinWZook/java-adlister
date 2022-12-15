@@ -3,7 +3,7 @@
 
 <html>
 <head>
-    <title>Title</title>
+    <title>Profile</title>
 </head>
 <body>
     <jsp:include page="partials/navbar.jsp"/>

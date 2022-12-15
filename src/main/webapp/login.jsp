@@ -1,4 +1,3 @@
-
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
     String userName = request.getParameter("username");
@@ -10,13 +9,11 @@
             response.sendRedirect("/login.jsp");
         }
     }
-
-
 %>
 
 <html>
 <head>
-    <title>Login></title>
+    <title>Login</title>
 </head>
 <body>
     <jsp:include page="partials/navbar.jsp"/>

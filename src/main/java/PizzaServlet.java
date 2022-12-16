@@ -16,7 +16,7 @@ public class PizzaServlet extends HttpServlet {
         String sauce = request.getParameter("pizzaSauce");
         String size = request.getParameter("pizzaSize");
         String address = request.getParameter("address");
-        String[] toppings = {request.getParameter("pepperoni"),request.getParameter("sausage"),request.getParameter("ham")};
+        String[] toppings = request.getParameterValues("toppings");
         System.out.println(crust);
         System.out.println(sauce);
         System.out.println(size);

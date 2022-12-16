@@ -41,11 +41,11 @@
         <br>
         <br>
         <label>Select toppings</label>
-        <input id="pepperoni" name="pepperoni" value="pepperoni" type="checkbox">pepperoni
+        <input id="pepperoni" name="toppings" value="pepperoni" type="checkbox">pepperoni
         <br>
-        <input id="sausage" name="sausage" value="sausage" type="checkbox">sausage
+        <input id="sausage" name="toppings" value="sausage" type="checkbox">sausage
         <br>
-        <input id="ham" name="ham" value="ham" type="checkbox">ham
+        <input id="ham" name="toppings" value="ham" type="checkbox">ham
         <br>
         <br>
         <label for="address">Enter delivery address</label>

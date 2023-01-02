@@ -8,7 +8,7 @@
     <jsp:include page="partials/navbar.jsp"/>
     <div class="container">
         <h1>Pick a color</h1>
-        <form action="/pickColor" method="POST">
+        <form action="/pickcolor" method="POST">
             <div class="form-group">
                 <label for="pickAColor">Favorite Color</label>
                 <br>

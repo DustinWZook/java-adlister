@@ -23,17 +23,15 @@ public MySQLAdsDao(Config configObj) throws SQLException {
         Statement statementObj = connectionObj.createStatement();
         ResultSet resultSetObj = statementObj.executeQuery("SELECT * from ads");
 
-        List<Ads> myAds = new ArrayList<>();
+        List<Ad> myAds = new ArrayList<>();
 
         while (resultSetObj.next()){
-            myAds.add(new Ad(resultSetObj.getLong("userId"),resultSetObj.getString("title"),resultSetObj.getString("description")));
+            myAds.add(new Ad(resultSetObj.getLong("userId"), resultSetObj.getString("title"),resultSetObj.getString("description")));
         }
         return myAds;
     }
 
     @Override
-    public long insert(Ad ad) {
-
-        return 0;
+    public void insert(Ad ad) {
     }
 }
